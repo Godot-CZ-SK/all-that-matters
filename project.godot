@@ -8,10 +8,18 @@
 
 config_version=4
 
+[addons]
+
+instance_dock/scenes=[  ]
+
 [application]
 
 config/name="all-that-matters"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/InstanceDock/plugin.cfg" )
 
 [physics]
 
