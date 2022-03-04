@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Actors/Characters/kid/kid.tscn" type="PackedScene" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( -30, 281, -58, 420, 141, 691, 809, 721, 862, 476, 805, 325, 688, 325, 686, 466 )
+
+[node name="Polygon2D" type="Polygon2D" parent="StaticBody2D"]
+position = Vector2( -17, 256 )
+polygon = PoolVector2Array( -13, 25, 703, 210, 706, 69, 823, 70, 880, 221, 826, 465, 158, 435, -40, 163 )
+
+[node name="kid" parent="." instance=ExtResource( 1 )]
+position = Vector2( 108, 232 )
