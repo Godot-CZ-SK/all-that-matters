@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://assets/theme/user_interface.tres" type="Theme" id=1]
+[ext_resource path="res://assets/platformer/theme/user_interface.tres" type="Theme" id=1]
 [ext_resource path="res://src/UserInterface/PauseMenu.gd" type="Script" id=2]
-[ext_resource path="res://assets/theme/fonts/kenney_mini_square.tres" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/platformer/theme/fonts/kenney_mini_square.tres" type="DynamicFontData" id=3]
 [ext_resource path="res://src/UserInterface/CoinsCounter.tscn" type="PackedScene" id=4]
 
 [sub_resource type="DynamicFont" id=1]

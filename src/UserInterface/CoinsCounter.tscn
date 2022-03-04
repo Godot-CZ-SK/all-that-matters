@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://assets/theme/user_interface.tres" type="Theme" id=1]
-[ext_resource path="res://assets/art/coin/coin.png" type="Texture" id=2]
+[ext_resource path="res://assets/platformer/theme/user_interface.tres" type="Theme" id=1]
+[ext_resource path="res://assets/platformer/item/coin/coin.png" type="Texture" id=2]
 [ext_resource path="res://src/UserInterface/CoinsCounter.gd" type="Script" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
