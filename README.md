@@ -2,6 +2,15 @@ All That Matters (Remake)
 =========================
 
 
-Original game made by: https://www.kongregate.com/accounts/sihirbaz
+Original game made by: https://twitter.com/batiali
 
 Discord: https://discord.gg/HBeCETfbza
+
+Subrepos
+========
+
+
+Assets: https://github.com/Godot-CZ-SK/all-that-matters-assets
+
+Original game export: https://github.com/Godot-CZ-SK/all-that-matters-flashsource
+
