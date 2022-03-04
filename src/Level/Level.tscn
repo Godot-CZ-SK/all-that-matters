@@ -47,6 +47,9 @@ tracks/0/keys = {
 pause_mode = 1
 script = ExtResource( 5 )
 
+[node name="PlayerStart" type="Position2D" parent="."]
+position = Vector2( 90, 546 )
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 32, 32 )

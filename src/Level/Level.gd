@@ -14,3 +14,5 @@ func _ready():
 			camera.limit_top = LIMIT_TOP
 			camera.limit_right = LIMIT_RIGHT
 			camera.limit_bottom = LIMIT_BOTTOM
+			if has_node("PlayerStart"):
+				child.translate(get_node("PlayerStart").position)
