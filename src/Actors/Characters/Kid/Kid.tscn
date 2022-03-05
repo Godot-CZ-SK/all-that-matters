@@ -18,11 +18,6 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 15 ), ExtResource( 6 ) ],
-"loop": false,
-"name": "idle",
-"speed": 7.0
-}, {
 "frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ) ],
 "loop": true,
 "name": "jump",
@@ -31,6 +26,11 @@ animations = [ {
 "frames": [ ExtResource( 5 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 7 ), ExtResource( 12 ), ExtResource( 3 ), null ],
 "loop": false,
 "name": "death",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 6 ) ],
+"loop": false,
+"name": "idle",
 "speed": 7.0
 } ]
 
